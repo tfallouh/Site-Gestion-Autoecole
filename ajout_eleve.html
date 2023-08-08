@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form method='POST' action='ajouter_eleve.php'>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">
+                <h2><i class="bi bi-person-plus-fill"></i> Elève </h2>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><label for='nom'>Nom</label></td>
+              <td><input type='text' class='champ' id='nom' name='nom' placeholder="ex DiCaprio" required></td>
+            </tr>
+            <tr>
+              <td><label for='prenom'>Prénom</label></td>
+              <td><input type='text' class='champ' id='prenom' name='prenom' placeholder="ex Léonardo" required></td>
+            </tr>
+            <tr>
+              <td><label for='date'>Date de naissance</label></td>
+              <td><input type='date' class='champ' id='date' name='dateNaiss' max='2008-01-01' required></td>
+            </tr>
+            <tr>
+              <td><input type='reset' class='button effacer' value='Effacer'></td>
+              <td><input type='submit' class='button valider' value='Valider'></td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Ajout d'un thème</title>
+</head>
+<body>
+    <h1> Ajout d'un thème </h1>
+    <form action="ajouter_theme.php" method="post">
+        
+        <table>
+            <tr>
+                <td>Nom</td><td><input type="text" name="nom" placeholder="Entrez le nom" required></td>
+            </tr>
+            <tr>
+                <td>Descriptif</td>
+                <td><textarea name="descriptif" rows="10" placeholder="Descritptif"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Ajouter thème">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
